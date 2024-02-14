@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ----------header section */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: red;
+}
+
+.notification-icon{
+    width: 2rem;
+}
+.user-avatar{
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+.access-menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+header h1,header div{
+    width: 30%;
+}
+header nav a{
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: rgb(68, 62, 62);
+    font-weight:bold ;
+}
+header nav a:hover{
+    color: red;
+    
+}
+
+input{
+    padding: 0.5rem;
+}
+.search-icon{
+    margin-left: -40px;
+}
+
+main {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 2rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#age{
+    border-style: groove;
+    border-radius: 5px;
+    margin: 0 1rem;
+}
+
+.text-red{
+    color: red;
+    font-weight: bold;
+}
+
+.span-age{
+    gap: 4rem;
+}
+
+.rating-container{
+    color: red;
+    
+}
+main h2{
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+.details-p{
+    margin: 1rem 0 ;
+}
+
+.btn{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.7rem;
+   
+}
+
